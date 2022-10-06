@@ -1,0 +1,105 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Pthl-Races",
+				"abbreviation": "PThl",
+				"full": "Primeval Thule Races",
+				"version": "1.0",
+				"targetSchema": "1.2"
+			}
+		]
+	},
+	"race": [
+		{
+			"name": "Atlantean",
+			"source": "Pthl-Races",
+			"page": 0,
+			"ability": [
+				{
+					"int": 2,
+          "str": 1
+				}
+			],
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 30
+			},
+			"languageProficiencies": [
+				{
+					"High Atlantean": true,
+					"Low Atlantean": true,
+					"anyStandard": 1
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Atlanteans are somewhat long-lived compared to most other humans. hey reach adulthood by 20, and often live to an age of 120 or so."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Atlanteans tend to be lawful, believing that societies can be engineered with strong laws and good planning. Whether those laws bring good to all or help the evil to oppress the weak depends on the individual; Atlanteans have been both protectors and conquerors in the past."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Atlanteans are Medium creatures."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Atlanteans have a base speed of 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Broad Education",
+					"entries": [
+						"Atlantean characters begin play with training in any two Intelligence-based skills. Atlanteans are raised with a love of learning and are encouraged to study any subject that catches their interest"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Headstrong",
+					"entries": [
+						"Atlanteans gain tactical advantage on saving throws against {@spell command}, dominate, geas, and hold spells. Atlanteans are willful and are used to having their way; when confronted with spells or effects that threaten to master the will with a direct attack, they are diicult to break."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"Atlantean characters speak Low Atlantean (the common tongue), High Atlantean, and one bonus language. Atlanteans can choose any common or uncommon language they want, but not rare or secret languages. They can read and write in any language they know."
+					]
+				}
+			],
+			"age": {
+				"mature": 20,
+				"max": 120
+			}
+		}
+	],
+	"raceFluff": [
+		{
+			"name": "Atlantean",
+			"source": "Pthl-Races",
+			"entries": [
+        "When you play an Atlantean character, you are playing someone who is richer, more inluential, and better-educated than most of the people he or she meets. Whether you regard these advantages as your birthright or as privileges you must earn through your own deeds is up to you.",
+				"{@bold \"Seek knowledge for its own sake.\"}",
+				"Your people are the living examples of the maxim that knowledge is power. Most Atlanteans cultivate a keen interest in many diferent things—ancient history, the natural sciences, war and strategy, commerce, philosophy, the arts, almost any ield of study imaginable. Be intensely curious about the world around you, and seek out opportunities to explore ancient mysteries or discover new things."
+			]
+		}
+	]
+}
